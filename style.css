@@ -1,4 +1,6 @@
 body {
+  background-image: url(images/plage.jpg);
+  background-size: cover;
   background-color: rgb(230,230,230);
   color: rgb(120,120,120);
   font-family: 'Open Sans', sans-serif;
