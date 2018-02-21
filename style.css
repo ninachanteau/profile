@@ -114,3 +114,11 @@ i {
   opacity: 1;
   color: white;
 }
+
+.link-list a {
+  color: rgb(120,120,120);
+}
+
+.link-list a:hover {
+  color: #005D6C;
+}
