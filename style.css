@@ -48,6 +48,7 @@ i {
   width: 500px;
   margin: 0 auto;
 }
+
 @media (max-width: 540px) {
   .container {
     width: 300px;
@@ -55,14 +56,13 @@ i {
 }
 
 .card {
-  background: white;
+  background-color: rgba(255,255,255,0.5);
   padding: 30px;
   border-radius: 4px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 20px;
   margin-bottom: 20px;
-  opacity: 0.5;
 }
 
 .text-center {
