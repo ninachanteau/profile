@@ -1,0 +1,114 @@
+body {
+  background-color: rgb(230,230,230);
+  color: rgb(120,120,120);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  color: #005D6C;
+  font-family: 'Montserrat';
+  line-height: px;
+  font-size: 22px;
+}
+
+h2 {
+  color: rgb(110,110,110);
+  font-family: 'Montserrat';
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+h3 {
+  color: rgb(110,110,110);
+  font-family: 'Montserrat';
+  font-weight: 400;
+  line-height: 25px;
+}
+
+a {
+  color: rgb(200,200,200);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005D6C;
+}
+
+i {
+  font-size: 25px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  background-color: rgb(230,230,230);
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+  border: 4px solid rgb(230,230,230);
+}
+
+.img-square {
+  width: 140px;
+  height: 140px;
+  margin-right: 15px;
+  margin-top: : 4px;
+  margin-bottom: 4px;
+}
+
+.list-inline {
+  padding: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.no-margin {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.btn-blue {
+  background-color: #005D6C;
+  padding: 10px;
+  border-radius: 3px;
+  color: white;
+  opacity: 0.7;
+}
+
+.btn-blue:hover {
+  background-color: #005D6C;
+  opacity: 1;
+  color: white;
+}
